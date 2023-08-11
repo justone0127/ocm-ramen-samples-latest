@@ -1,0 +1,10 @@
+---
+apiVersion: ramendr.openshift.io/v1alpha1
+kind: DRPolicy
+metadata:
+  name: dr-policy
+spec:
+  drClusters:
+  - hub
+  - cluster1
+  schedulingInterval: 1m
